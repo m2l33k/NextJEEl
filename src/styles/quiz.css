@@ -1,0 +1,50 @@
+.quiz-page {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #343a40;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result h3 {
+  font-size: 1.5em;
+}
+
+.result p {
+  color: #343a40;
+}

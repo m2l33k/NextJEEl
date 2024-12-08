@@ -1,0 +1,68 @@
+/* books.css */
+
+/* Wrapper for each book */
+.book-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Image styling */
+.book-image {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensure the image fills the container */
+  border-radius: 8px;
+  margin-bottom: 16px; /* Space between image and text */
+}
+
+/* Title and author styling */
+.book-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.book-author {
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 0;
+}
+
+/* Section label */
+.book-section {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Container for the books */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+/* Ensure the images are responsive */
+@media (max-width: 768px) {
+  .book-item {
+      padding: 12px;
+  }
+
+  .book-title {
+      font-size: 1.2rem;
+  }
+}

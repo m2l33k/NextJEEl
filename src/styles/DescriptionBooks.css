@@ -1,0 +1,113 @@
+/* Container for the book description */
+.book-description-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffe4e1; /* Light pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+/* Styling for the book image */
+.book-image img {
+  width: 450px;
+  height: auto;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the book details */
+.book-details {
+  flex: 1;
+}
+
+.book-title {
+  font-size: 1.8rem;
+  color: #ff69b4; /* Pink color for the title */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.book-author,
+.book-section {
+  font-size: 1rem;
+  color: #555; /* Medium gray */
+  margin-bottom: 10px;
+}
+
+.book-description {
+  font-size: 1rem;
+  color: #555; /* Medium gray */
+  line-height: 1.6;
+}
+
+/* Buttons for actions */
+.book-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Adds spacing between buttons */
+}
+
+.primary-button,
+.secondary-button {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+}
+
+.primary-button {
+  background-color: #ff69b4; /* Pink for primary action */
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #ff1493; /* Darker pink for hover */
+}
+
+.secondary-button {
+  background-color: #f5f5f5; /* Light gray background */
+  color: #555;
+  border: 1px solid #ccc; /* Subtle border for secondary action */
+}
+
+.secondary-button:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-description-container {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+  }
+
+  .book-image img {
+      width: 100px; /* Smaller width for smaller screens */
+      max-height: 150px;
+  }
+
+  .book-title {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+
+  .book-description {
+      text-align: justify; /* Justifies text for a cleaner look */
+  }
+
+  .book-actions {
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 15px; /* Add spacing between buttons */
+  }
+}

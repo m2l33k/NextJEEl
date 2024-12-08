@@ -1,0 +1,74 @@
+/* Navbar styles */
+.navbar-container {
+  background-color: #cbb6b6;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-actions .btn {
+  color: #c69f9f;
+  background-color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-actions .btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+      margin: 10px 0;
+  }
+
+  .navbar-actions .btn {
+      margin-top: 10px;
+  }
+}

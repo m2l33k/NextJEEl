@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "title": "Mathematics Course 1",
+    "author": "Author 1",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to basic algebra and calculus." ,
+    "pdfFile": "src/assets/pdf/4M_t1.pdf"
+  },
+  {
+    "id": 2,
+    "title": "Mathematics Course 2",
+    "author": "Author 2",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Understanding functions and graphs."
+  },
+  {
+    "id": 3,
+    "title": "Mathematics Course 3",
+    "author": "Author 3",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Exploring mathematical analysis techniques."
+  },
+  {
+    "id": 4,
+    "title": "Mathematics Course 4",
+    "author": "Author 4",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Deep dive into differential equations."
+  },
+  {
+    "id": 5,
+    "title": "Mathematics Course 5",
+    "author": "Author 5",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Advanced calculus and multivariable analysis."
+  },
+  {
+    "id": 6,
+    "title": "Mathematics Course 6",
+    "author": "Author 6",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to vector spaces and matrices."
+  },
+  {
+    "id": 7,
+    "title": "Mathematics Course 7",
+    "author": "Author 7",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Linear algebra and its applications in physics."
+  },
+  {
+    "id": 8,
+    "title": "Mathematics Course 8",
+    "author": "Author 8",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Exploring numerical methods and approximation."
+  },
+  {
+    "id": 9,
+    "title": "Mathematics Course 9",
+    "author": "Author 9",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Differential equations and their real-world applications."
+  },
+  {
+    "id": 10,
+    "title": "Mathematics Course 10",
+    "author": "Author 10",
+    "section": "bac math",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Mathematical proof techniques and logic."
+  },
+  
+  {
+    "id": 11,
+    "title": "Science Course 1",
+    "author": "Author 11",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Fundamentals of biology and ecology."
+  },
+  {
+    "id": 12,
+    "title": "Science Course 2",
+    "author": "Author 12",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to physics and classical mechanics."
+  },
+  {
+    "id": 13,
+    "title": "Science Course 3",
+    "author": "Author 13",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Exploring chemical reactions and stoichiometry."
+  },
+  {
+    "id": 14,
+    "title": "Science Course 4",
+    "author": "Author 14",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Understanding the principles of thermodynamics."
+  },
+  {
+    "id": 15,
+    "title": "Science Course 5",
+    "author": "Author 15",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Basic principles of genetics and heredity."
+  },
+  {
+    "id": 16,
+    "title": "Science Course 6",
+    "author": "Author 16",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Exploring electricity, magnetism, and electromagnetism."
+  },
+  {
+    "id": 17,
+    "title": "Science Course 7",
+    "author": "Author 17",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Fundamentals of organic chemistry and compounds."
+  },
+  {
+    "id": 18,
+    "title": "Science Course 8",
+    "author": "Author 18",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Study of the periodic table and atomic structure."
+  },
+  {
+    "id": 19,
+    "title": "Science Course 9",
+    "author": "Author 19",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to environmental science and sustainability."
+  },
+  {
+    "id": 20,
+    "title": "Science Course 10",
+    "author": "Author 20",
+    "section": "bac science",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to biochemistry and cellular biology."
+  },
+  
+  {
+    "id": 21,
+    "title": "Physique Course 1",
+    "author": "Author 21",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Understanding Newton's laws of motion."
+  },
+  {
+    "id": 22,
+    "title": "Physique Course 2",
+    "author": "Author 22",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to fluid mechanics and thermodynamics."
+  },
+  {
+    "id": 23,
+    "title": "Physique Course 3",
+    "author": "Author 23",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Exploring wave motion and sound."
+  },
+  {
+    "id": 24,
+    "title": "Physique Course 4",
+    "author": "Author 24",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Electromagnetic waves and their applications."
+  },
+  {
+    "id": 25,
+    "title": "Physique Course 5",
+    "author": "Author 25",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Exploring optics and light behavior."
+  },
+  {
+    "id": 26,
+    "title": "Physique Course 6",
+    "author": "Author 26",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Quantum mechanics and particle physics."
+  },
+  {
+    "id": 27,
+    "title": "Physique Course 7",
+    "author": "Author 27",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Study of modern physics and relativity."
+  },
+  {
+    "id": 28,
+    "title": "Physique Course 8",
+    "author": "Author 28",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Atomic structure and nuclear physics."
+  },
+  {
+    "id": 29,
+    "title": "Physique Course 9",
+    "author": "Author 29",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Study of thermodynamics and heat transfer."
+  },
+  {
+    "id": 30,
+    "title": "Physique Course 10",
+    "author": "Author 30",
+    "section": "bac physique",
+    "className": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mqSFqRMkxFoTIhkCsNWlnwAAAA%26pid%3DApi&f=1&ipt=657aae729a780241eba01c6df4013bfebca298a88de81585c83dc9977ff4e65b&ipo=images",
+    "description": "Introduction to classical and modern physics concepts."
+  }
+]

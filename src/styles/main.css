@@ -1,0 +1,344 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+input, textarea, select {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar ul li {
+  color: white;
+  font-weight: bold;
+}
+.primary-button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: var(--button-hover);
+}
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  color: var(--heading-color);
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .content {
+      padding: 10px;
+  }
+
+  .auth-container {
+      width: 90%;
+      margin: 20px auto;
+  }
+}
+/* Background text for educational theme */
+.signin-page {
+  position: relative;
+  height: 100vh;
+  background-color: #fff0f5; /* Light pink background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.background-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  color: rgba(255, 20, 147, 0.1); /* Light deep pink */
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  z-index: -1;
+}
+
+.background-text h1 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Sign-In Card */
+.signin-card {
+  background-color: #8A2BE2; /* Pink card */
+  color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.signin-page {
+  position: relative;
+  height: 100vh;
+  background: url('https://wtop.com/wp-content/uploads/2018/08/GettyImages-846567624.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Optional: Add an overlay for better contrast */
+.signin-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
+  z-index: -1;
+}
+
+
+.signin-card img.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid white;
+}
+
+/* Input Styling */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  color: #333;
+  background-color: #ffe4e1; 
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.primary-button {
+  background-color: white;
+  color: #ff69b4;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .background-text {
+      font-size: 2rem;
+  }
+
+  .signin-card {
+      width: 90%;
+      padding: 15px;
+  }
+}
+/* General styling for the auth container */
+.auth-container, .signin-page, .signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f7f7f7, #d9e7ff);
+  font-family: Arial, sans-serif;
+}
+
+.background-text h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.signup-card, .signin-card {
+  background: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button.primary-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.primary-button:hover {
+  background-color: #0056b3;
+}
+
+.signin-link {
+  margin-top: 1rem;
+}
+
+.signin-link p {
+  font-size: 1rem;
+  color: #555;
+}
+
+button.secondary-button {
+  font-size: 1rem;
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+button.secondary-button:hover {
+  text-decoration: underline;
+}
+

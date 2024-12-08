@@ -1,0 +1,31 @@
+.scan-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.file-input {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.pdf-text-container {
+  margin-top: 30px;
+  text-align: left;
+  white-space: pre-wrap; /* Ensures the text preserves its formatting */
+  font-family: "Courier New", monospace; /* Monospace for better readability */
+  font-size: 18px;
+  line-height: 1.6;
+}
